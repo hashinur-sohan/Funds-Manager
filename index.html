@@ -15,33 +15,63 @@
         <h1 class="text-5xl font-samibold text-center">Funds Manager</h1>
     </header>
     <main>
-        <section>
-            <div class="grid grid-cols-2">
+        <section class="container mx-auto">
+            <div class="grid grid-cols-2 ">
+
+                <!-- image side -->
+
                 <div class="mb-10 ml-10 mr-10 ">
                     <img class="" src="style/image/pic.jpg" alt="">
                 </div>
-                <div class="grid auto-rows-auto justify-center border-2 border-solid mb-10 ml-10 mr-10 bg-slate-300">
+
+                <!-- calculation part -->
+
+                <div class="grid auto-rows-auto justify-center border-2 border-solid bg-slate-300 mb-10 ml-10 mr-10">
                     <div>
-                        <div>
-                            <h3 class="justify-center">Income</h3>
-                            <input type="text" name="" id="">
+                        <div class="mb-2 mt-10 ">
+                            <h3 class="grid justify-center font-bold">Income</h3>
                         </div>
-                        <div>
-                            <input type="text" name="" id="">
+                        <div class="mb-2 text-xs">
+                            <span class="mr-2 ">Income</span><input class="rounded" type="text" name="" id="">
                         </div>
-                        <div>
-                            <input type="text" name="" id="">
+                        <div class="mb-2">
+                            <h3 class="grid justify-center font-bold">Expenses</h3>
                         </div>
-                        <div>
-                            <input type="text" name="" id="">
+                        <div class="mb-2 text-xs">
+                            <span class="mr-5">Food </span><input class="rounded" type=" text" name="" id="">
                         </div>
-                        <div>
-                            <input type="text" name="" id="">
+                        <div class="mb-2 text-xs">
+                            <span class="mr-6">Rent </span><input class="rounded" type=" text" name="" id="">
                         </div>
+                        <div class="mb-2 text-xs">
+                            <span class="mr-5">Cloth </span><input class="rounded" type=" text" name="" id="">
+                        </div>
+
+                        <button class="bg-blue-600 px-7 mt-2  ml-16 rounded  text-white ">Calculate</button>
+
+                        <div class="text-center mt-4 font-bold">
+                            <h3>Total Expenses: <span>5500</span></h3>
+                        </div>
+                        <div class="text-center  font-bold">
+                            <h3 class="">Balance: <span>5500</span></h3>
+                        </div>
+
+                        <div class="text-center text-xs mt-3">
+                            <span class="mr-2">Save:</span><input class="rounded w-12 mr-4 px-10" type=" text" name=""
+                                id="">
+                            <span class="mr-4">%</span>
+                            <button class="bg-blue-600 px-5 rounded  text-white ">Save</button>
+                        </div>
+                        <div class="text-center mt-3 font-bold">
+                            <h3 class="">Saving Amount: <span>5500</span></h3>
+                        </div>
+                        <div class="text-center font-bold">
+                            <h3 class=""> Remaining Balance: <span>5500</span></h3>
+                        </div>
+
+
                     </div>
-                    <div></div>
                 </div>
-            </div>
 
         </section>
 
